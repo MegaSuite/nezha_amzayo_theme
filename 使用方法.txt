@@ -1,0 +1,43 @@
+0.15.17版本之前：
+
+1.将template中的menu.html第5行改成<img src="../../static/theme-custom/head.png">
+
+1.template里面的文件放到服务端/opt/nezha/dashboard/theme-custom/template目录里面
+
+2.static里面的文件放到服务端/opt/nezha/dashboard/theme-custom/static目录里面
+
+2.重启哪吒面板服务
+
+3.在哪吒面板后台主题选择Custom(local)
+
+4.将 自定义代码.txt 里面的内容复制到哪吒面板后台的“自定义代码”文本框里
+
+
+
+--------------------------------------------------------------------------------
+
+
+0.15.17以及版本之后：
+
+1.template里面的文件放到服务端/opt/nezha/dashboard/resource/template/theme-custom目录里面
+
+2.static里面的文件放到服务端/opt/nezha/dashboard/resource/static/custom目录里面
+
+2.重启哪吒面板服务
+
+3.在哪吒面板后台主题选择Custom(local)
+
+4.将 自定义代码.txt 里面的内容复制到哪吒面板后台的“自定义代码”文本框里
+
+
+--------------------------------------------------------------------------------
+
+
+其它说明：
+
+修改顶部左边的图片就是修改static里面的那张名字为head.png的图片，文件名要一致。如果文件名不一致，请去menu.heml第5行修改
+
+站点图标header.html文件的第17行，替换掉https://cdn.amzayo.top/static/public/luban/luban_head.png
+
+底部版权信息footer.html文件的第4到8行，依照demo底部的文字按需替换
+
